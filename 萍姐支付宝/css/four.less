@@ -1,0 +1,121 @@
+@import url(reset.css);
+.full(@w,@h,@bg){
+    width: @w;
+    height: @h;
+    background: @bg;
+}
+.box(@ver){
+    display: -webkit-box;
+    -webkit-box-orient: @ver ;
+}
+html,body,.warp_3{
+    .full(100%,100%,0);
+}
+html{
+    font-size: 62.5%;
+}
+.warp_3{
+    .box(vertical);
+    header{
+        .full(100%,4.2rem,#1b82d2);
+        .box(horizontal);
+        h2{
+            -webkit-box-flex: 1;
+            text-align: center;
+            font-size: 1.6rem;
+            color: white;
+            line-height: 4.2rem;
+            font-weight: bold;
+        }
+        h3{
+            padding: 14px 10px 0 0;
+            img{
+                .full(auto,1.8rem,0);
+            }
+        }
+    }
+    section{
+        -webkit-box-flex: 1;
+        overflow: auto;
+        background: #ebeeef;
+        .f_top{
+            .full(100%,4.4rem,#fff);
+            position: relative;
+            dl{
+                .box(horizontal);
+                padding: 5px 0 0 6px;
+                box-sizing: border-box;
+                dt{
+                    padding-right: 0.6rem;
+                }
+                img{
+                    .full(auto,3.4rem,0);
+                }
+                dd{
+                    color: #a5a5a5;
+                    p{
+                        color: #000000;
+                        padding-bottom: 4px;
+                        box-sizing: border-box;
+                    }
+                }
+            }
+            h4{
+                position: absolute;
+                top: 1.6rem;
+                right: 1rem;
+                img{
+                    .full(auto,1.4rem,0);
+                    margin-right: 0.6rem;
+                }
+            }
+        }
+        .f_center{
+            .full(100%,auto,#fff);
+            margin-top: 10px;
+            dl{
+                .box(horizontal);
+                .full(100%,3rem,0);
+                padding: 0 0 0 10px;
+                box-sizing: border-box;
+                border-bottom: 1px solid #ebeeef;
+                dt{
+                    padding-right: 0.6rem;
+                    padding-top: 0.8rem;
+                    box-sizing: border-box;
+                    img{
+                        .full(auto,1.2rem,0);
+                    }
+                }
+                dd{
+                    position: relative;
+                    -webkit-box-flex: 1;
+                    span{
+                        display: block;
+                        line-height: 3rem;
+                    }
+                    img{
+                        .full(auto,1rem,0);
+                        position: absolute;
+                        top: 1rem;
+                        right: 1rem;
+                    }
+                }
+            }
+        }
+    }
+    footer{
+        .full(100%,4rem,none);
+        text-align: center;
+         .box(horizontal);
+         border-top: 1px solid #ccc;
+        dl{
+            -webkit-box-flex: 1;
+            padding-top: 4px;
+            box-sizing: border-box;
+            dt img{
+                .full(auto,1.7rem,none);
+            }
+        }
+    }
+}

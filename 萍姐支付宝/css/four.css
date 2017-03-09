@@ -1,0 +1,143 @@
+@import url(reset.css);
+html,
+body,
+.warp_3 {
+  width: 100%;
+  height: 100%;
+  background: 0;
+}
+html {
+  font-size: 62.5%;
+}
+.warp_3 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.warp_3 header {
+  width: 100%;
+  height: 4.2rem;
+  background: #1b82d2;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.warp_3 header h2 {
+  -webkit-box-flex: 1;
+  text-align: center;
+  font-size: 1.6rem;
+  color: white;
+  line-height: 4.2rem;
+  font-weight: bold;
+}
+.warp_3 header h3 {
+  padding: 14px 10px 0 0;
+}
+.warp_3 header h3 img {
+  width: auto;
+  height: 1.8rem;
+  background: 0;
+}
+.warp_3 section {
+  -webkit-box-flex: 1;
+  overflow: auto;
+  background: #ebeeef;
+}
+.warp_3 section .f_top {
+  width: 100%;
+  height: 4.4rem;
+  background: #ffffff;
+  position: relative;
+}
+.warp_3 section .f_top dl {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  padding: 5px 0 0 6px;
+  box-sizing: border-box;
+}
+.warp_3 section .f_top dl dt {
+  padding-right: 0.6rem;
+}
+.warp_3 section .f_top dl img {
+  width: auto;
+  height: 3.4rem;
+  background: 0;
+}
+.warp_3 section .f_top dl dd {
+  color: #a5a5a5;
+}
+.warp_3 section .f_top dl dd p {
+  color: #000000;
+  padding-bottom: 4px;
+  box-sizing: border-box;
+}
+.warp_3 section .f_top h4 {
+  position: absolute;
+  top: 1.6rem;
+  right: 1rem;
+}
+.warp_3 section .f_top h4 img {
+  width: auto;
+  height: 1.4rem;
+  background: 0;
+  margin-right: 0.6rem;
+}
+.warp_3 section .f_center {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  margin-top: 10px;
+}
+.warp_3 section .f_center dl {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 3rem;
+  background: 0;
+  padding: 0 0 0 10px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ebeeef;
+}
+.warp_3 section .f_center dl dt {
+  padding-right: 0.6rem;
+  padding-top: 0.8rem;
+  box-sizing: border-box;
+}
+.warp_3 section .f_center dl dt img {
+  width: auto;
+  height: 1.2rem;
+  background: 0;
+}
+.warp_3 section .f_center dl dd {
+  position: relative;
+  -webkit-box-flex: 1;
+}
+.warp_3 section .f_center dl dd span {
+  display: block;
+  line-height: 3rem;
+}
+.warp_3 section .f_center dl dd img {
+  width: auto;
+  height: 1rem;
+  background: 0;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+.warp_3 footer {
+  width: 100%;
+  height: 4rem;
+  background: none;
+  text-align: center;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  border-top: 1px solid #ccc;
+}
+.warp_3 footer dl {
+  -webkit-box-flex: 1;
+  padding-top: 4px;
+  box-sizing: border-box;
+}
+.warp_3 footer dl dt img {
+  width: auto;
+  height: 1.7rem;
+  background: none;
+}
